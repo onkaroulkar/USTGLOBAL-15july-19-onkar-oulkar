@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+     
+     <bean id="fpp" class="com.ust.ust.spring.core.beans.FactoryPostProcessor"/>
+     <bean id="pp" class="com.ust.ust.spring.core.beans.PostProcessor"/>
+     
+     <bean id="obj" class="com.ust.ust.spring.core.beans.HelloWorld" >
+     <property name="msg" value="hello world"></property>
+      <property name="animal" ref="Human"></property> 
+      <property name="map">
+     <map>
+      <entry key="ABC" value="123"></entry>
+      <entry key="XYZ" value="456"></entry>
+     </map>
+     </property>
+     
+     </bean>
+     
+     <bean id="dog" class="com.ust.ust.spring.core.beans.Dog" init-method="init" destroy-method="destroy"></bean>
+  
+  
+     <bean id="Human" class="com.ust.ust.spring.core.beans.Human"></bean>
+
+  
+  
+     <bean id="pet" class="com.ust.ust.spring.core.beans.Pet" autowire="constructor">
+      <constructor-arg name="name" value="Judo"></constructor-arg> 
+    <constructor-arg  name="animal" ref="dog"></constructor-arg> 
+       </bean> 
+    
+     
+    
+     
+   
+     </beans>
