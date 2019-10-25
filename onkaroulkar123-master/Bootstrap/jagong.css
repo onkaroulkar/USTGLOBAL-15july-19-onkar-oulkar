@@ -1,0 +1,31 @@
+.media{
+    display: inline;
+float: left;
+
+}
+.media-body{
+    display: inline;
+float: left;
+
+}
+#nav2{
+    height: 69px;
+    margin-right: 100px;
+    border: 2px solid #eee;
+
+}
+#nav3{
+    height: 69px;
+    float: right;
+    width: 100px;
+    margin-top: -69px;
+    border: 2px solid #eee;
+}
+#i1{
+    padding-right: 10px;
+}
+#i2{
+    padding-left: 5px;
+    padding-right: 0px
+
+}

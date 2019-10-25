@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scrollspy</title>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.css">
+</head>
+<body>
+    
+    <div class="container">
+            <nav id="navbar-example2" class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#fat">@fat</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#mdo">@mdo</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#one">one</a>
+                          <a class="dropdown-item" href="#two">two</a>
+                          <div role="separator" class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#three">three</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+                    <h4 id="fat">@fat</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In rem, eum, incidunt quisquam perspiciatis molestiae eos consectetur ipsa delectus voluptatibus a repellendus qui velit, commodi voluptas quam ipsam similique adipisci?</p>
+                    <h4 id="mdo">@mdo</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos hic voluptas sequi velit illum! Ab quae magni officia. Accusamus quod error, praesentium doloribus id laborum optio consequuntur molestias, cupiditate eos, blanditiis eaque commodi nihil autem debitis eum voluptatibus similique rerum?
+                    </p>
+                    <h4 id="one">one</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ipsum maiores vel! Ea asperiores tenetur architecto commodi aspernatur, quidem soluta adipisci amet doloremque exercitationem aperiam est. Voluptatem dolores amet eos?</p>
+                    <h4 id="two">two</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, adipisci temporibus nihil est, libero magnam quae corporis suscipit, iure quas aliquid deleniti quia dolorem autem.</p>
+                    <h4 id="three">three</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ex odio aliquid tenetur alias ad nisi error vel est libero recusandae perferendis necessitatibus, saepe ipsum.</p>
+                  </div>
+    </div>
+    
+
+    <script src="./javascript/jquery-3.4.1.js"></script>
+    <script src="./bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+</body>
+</html>

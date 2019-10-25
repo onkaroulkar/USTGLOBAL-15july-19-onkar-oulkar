@@ -1,0 +1,75 @@
+.inslogo{
+    width: 60px;
+    background: rgb(99, 23, 23);
+}
+.words{
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+}
+.navcont{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right:0;
+    margin-left:0;
+    margin-top:0;
+    margin-bottom:0;
+border: 0;
+}
+.dropdown-item{
+    color: white;
+}
+.headline:hover{
+    color: rgb(99, 23, 23);
+}
+h2{
+    color:   rgb(99, 23, 23);
+}
+.inslink:hover{
+    color: rgb(99, 23, 23);
+}
+.inslink{
+    color: rgb(99, 23, 23);
+}
+.usefulcontent{
+    display: inline;
+}
+.na{
+    color: rgb(99, 23, 23);    
+}
+.na:hover{
+    color: rgb(99, 23, 23);
+}
+#nechild{
+    background: lightgray;
+
+}
+#nchild:hover{
+    color: rgb(99, 23, 23);  
+}
+#nechild:hover{
+    color: rgb(99, 23, 23); 
+}
+.uselink{
+    display: inline;
+    float:left;
+}
+.connectus{
+    display: inline;
+    float: left
+}
+.contactus{
+    display: inline;
+    float: right;
+}
+.io{
+    color: rgb(99, 23, 23);  
+}
+.io:hover{
+    color: rgb(99, 23, 23);  
+}

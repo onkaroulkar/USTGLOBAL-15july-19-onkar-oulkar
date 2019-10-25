@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(207,207,223);
+}
+#navid{
+    background-color: rgb(84,84,136);
+}
+#h1id{
+    color: white
+}
+legend{
+text-align: center;
+}
+span{
+    display: inline-block;
+    margin-left: 85px;
+}
